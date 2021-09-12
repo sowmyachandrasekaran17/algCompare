@@ -1,0 +1,16 @@
+Package: algCompare
+Type: Package
+Title: A Robust Statistical Framework for Comparing Optimization Heuristics
+Version: 0.1.0
+Author: Sowmya Chandrasekaran[aut, cre], Thomas Bartz-Beielstein[aut]
+Maintainer: Sowmya Chandrasekaran <sowzz.17@gmail.com>
+Description: A generalized statistical framework using t-test is implemented that evaluates various key factors like severity, p-value, power. Severity describes the degree of support to decisions made using classical hypothesis testing. It takes into account the data and performs a post-data evaluation to scrutinize the decisions made by analyzing how well the data fits the testing framework. It can be  described as the actual power attained in the post data analysis and can be described separately for the decision of either rejecting or not rejecting the null hypothesis. Another key aspect is the validation of the performances over a range of practically insignificant deviations. More importantly, a new measure called normalized area under the severity discrepancy curve is implemented, which summarizes the support of severity over the discrepancy region of interest. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: yes
+RoxygenNote: 7.1.1
+Repository: CRAN
+Depends: R (>= 3.6.0)
+Imports: stats, graphics, ggplot2, Rdpack,DescTools, RColorBrewer
+RdMacros: Rdpack
+Suggests: testthat
